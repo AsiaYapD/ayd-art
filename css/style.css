@@ -120,9 +120,9 @@ h1 {
 h2 {
   font-family: "Rubik mono one", sans-serif;
   font-size: 10em;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: -.1em;
+  letter-spacing: -.10em;
   margin: 0;
 }
 
@@ -150,7 +150,7 @@ img {
 
 .content-wrapper {
   width: 90%;
-  margin: 25px 0;
+  margin: 0px 0px;
 }
 
 
@@ -169,7 +169,7 @@ header {
 
 header .content-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 80%;
@@ -253,6 +253,34 @@ footer .content-wrapper {
 }
 
 /************* MOBILE STYLES*********/
+
+
+.about .content-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+
+#about-section {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+}
+
+/************* MOBILE - GALLERY - STYLES*********/
+
+/************* MOBILE - ABOUT - STYLES*********/
+
+/************* MOBILE - CONTACT - STYLES*********/
+
+
+
+
+
 
 
 
@@ -341,15 +369,28 @@ footer .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+/************************** TABLET STYLES****************************/
+@media only screen and (min-width: 768px) {
+
+
+  /************* TABLET - GALLERY - STYLES*********/
+
+  /************* TABLET - ABOUT - STYLES*********/
+
+  /************* TABLET - CONTACT - STYLES*********/
+
 }
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+/************************** DESKTOP STYLES****************************/
+@media only screen and (min-width: 1200px) {
+
+  /************* DESKTOP - GALLERY - STYLES*********/
+
+  /************* DESKTOP - ABOUT - STYLES*********/
+
+  /************* DESKTOP - CONTACT - STYLES*********/
+
 }
 
 /* ==========================================================================
