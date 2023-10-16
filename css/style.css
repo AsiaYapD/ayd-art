@@ -271,6 +271,14 @@ footer .content-wrapper {
   padding: 15px 0px;
 }
 
+.about-me {
+  margin: 10px auto;
+  font-size: 1.625em;
+  line-height: 28px;
+  text-align: center;
+  width: 95%;
+}
+
 /************* MOBILE - GALLERY - STYLES*********/
 
 /************* MOBILE - ABOUT - STYLES*********/
