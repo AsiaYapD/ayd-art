@@ -119,10 +119,11 @@ h1 {
 
 h2 {
   font-family: "Rubik mono one", sans-serif;
-  font-size: 10em;
+  font-size: 3em;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: -.10em;
+  word-spacing: -.5em;
   margin: 0;
 }
 
@@ -164,7 +165,8 @@ footer {
 }
 
 header {
-  padding: 16px 0;
+  padding: 8px 0;
+  border-bottom: 1.75px solid black;
 }
 
 header .content-wrapper {
@@ -254,13 +256,16 @@ footer .content-wrapper {
 
 /************* MOBILE STYLES*********/
 
-
 .about .content-wrapper {
   width: 90%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 0px auto;
+}
+
+.about .title {
+  display: flex;
 }
 
 #about-section {
