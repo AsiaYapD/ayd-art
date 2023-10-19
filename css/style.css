@@ -130,20 +130,22 @@ h2 {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
   text-transform: uppercase;
+  font-weight:bold;
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   line-height: 1.285em;
   font-size: .95em;
 }
 
 span {
-  font-family: "Roboto", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   line-height: 1.285em;
   font-size: .95em;
+  text-decoration: underline;
 }
 
 img {
@@ -275,11 +277,11 @@ footer .content-wrapper {
 }
 
 .about-me {
-  margin: 10px auto;
-  font-size: 1.625em;
-  line-height: 28px;
-  text-align: center;
-  width: 95%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  line-height: 30px;
+  text-align: left;
+  width: 100%;
 }
 
 /************* MOBILE - GALLERY - STYLES*********/
