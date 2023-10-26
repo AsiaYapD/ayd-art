@@ -250,7 +250,7 @@ footer .content-wrapper {
 
 .footer-title {
   width: 100%;
-  flex-wrap: nowrap;
+  padding-top: 40px;
   display: flex;
   justify-content: space-around;
 }
