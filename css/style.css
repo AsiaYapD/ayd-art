@@ -157,8 +157,12 @@ img {
 
 /* ----------------------- Base Header - Footer STYLES ----------------------- */
 
-header {
+header,
+footer {
   margin: 20px 0px;
+}
+
+header {
   border-bottom: 1.75px solid black;
 }
 
@@ -236,7 +240,7 @@ header .content-wrapper {
 
 /* ----- Connect ----- */
 
-#connect  {
+#connect {
   padding: 16px 0;
   margin-bottom: 30px;
   border-top: 1.75px solid black;
@@ -253,9 +257,8 @@ header .content-wrapper {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 50%; 
-  float:left;
-
+  width: 50%;
+  float: left;
 }
 
 .connect-left ul,
