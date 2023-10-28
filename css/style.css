@@ -194,7 +194,7 @@ header .content-wrapper {
 
 .footer-title {
   width: 100%;
-  padding-top: 40px;
+  padding-top: 70px;
   display: flex;
   justify-content: space-around;
 }
@@ -243,16 +243,19 @@ header .content-wrapper {
 }
 
 #connect .content-wrapper {
-  width: 90%;
-  /* margin: 25px auto 0 auto; */
+  width: 80%;
+  margin: 25px auto 0 auto;
 }
 
 .connect-left,
 .connect-right {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 30%; 
+  width: 50%; 
+  float:left;
+
 }
 
 .connect-left ul,
