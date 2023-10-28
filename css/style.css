@@ -121,9 +121,9 @@ h2 {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: -.10em;
-  word-spacing: -.5em;
+  word-spacing: -0.5em;
   margin: 0;
-  transform: scale(1, 1.6);
+  transform: scale(1, 2.2);
 }
 
 p {
@@ -192,62 +192,6 @@ header .content-wrapper {
   text-decoration: overline;
 }
 
-footer {
-  padding: 16px 0;
-  margin-bottom: 30px;
-  border-top: 1.75px solid black;
-}
-
-footer .content-wrapper {
-  width: 90%;
-  /* margin: 25px auto 0 auto; */
-}
-
-.footer-left {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1em 0 .5em 0;
-  width: 45%;
-}
-
-.footer-left ul {
-  margin: .5em 0 .5em 0;
-  text-align: left;
-  font-size: 1em;
-}
-
-.footer-left a {
-  padding: 20px 20px;
-}
-
-.footer-left a:hover {
-  cursor: pointer;
-  padding: 20px 20px;
-  text-decoration: overline;
-}
-
-.footer-right {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1em 0 .5em 0;
-  width: 45%;
-}
-
-.footer-right ul {
-  text-align: left;
-  font-size: 1em;
-}
-
-.footer-right a {
-  padding: 20px 20px;
-}
-
-.footer-right a:hover {
-  cursor: pointer;
-  padding: 20px 20px;
-  text-decoration: overline;
-}
-
 .footer-title {
   width: 100%;
   padding-top: 40px;
@@ -290,7 +234,45 @@ footer .content-wrapper {
   width: 100%;
 }
 
+/* ----- Connect ----- */
 
+#connect  {
+  padding: 16px 0;
+  margin-bottom: 30px;
+  border-top: 1.75px solid black;
+}
+
+#connect .content-wrapper {
+  width: 90%;
+  /* margin: 25px auto 0 auto; */
+}
+
+.connect-left,
+.connect-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 30%; 
+}
+
+.connect-left ul,
+.connect-right ul {
+  text-align: left;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.connect-left a,
+.connect-right a {
+  padding: 20px 20px;
+}
+
+.connect-left a:hover,
+.connect-right a:hover {
+  cursor: pointer;
+  padding: 20px 20px;
+  text-decoration: overline;
+}
 
 /************* MOBILE - GALLERY - STYLES*********/
 
