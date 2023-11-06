@@ -296,7 +296,7 @@ footer .content-wrapper {
 
 /* ----- Photos ----- */
 
-.container.gallery-1{
+.container.gallery-1 {
   display: flex;
   width: 65%;
   justify-content: flex-end;
@@ -306,8 +306,6 @@ footer .content-wrapper {
   width:100%;
   padding: 20px 0px;
 }
-
-
 
 #avatar-2 {
   display: flex;
@@ -324,9 +322,24 @@ footer .content-wrapper {
 
 #avatar-5 {
   width: 90%;
-}*/ 
+}*/
 
 /************* MOBILE - ABOUT - STYLES*********/
+
+.profile p {
+  text-align: left;
+}
+
+.me-photo {
+  display: flex;
+  justify-content: right;
+  width: 55%;
+}
+
+.blurb {
+  display: flex;
+  justify-content: left;
+}
 
 /************* MOBILE - CONTACT - STYLES*********/
 
