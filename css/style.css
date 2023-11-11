@@ -332,8 +332,9 @@ footer .content-wrapper {
 
 .me-photo {
   display: flex;
-  justify-content: right;
-  width: 55%;
+  justify-content: flex-end;
+  max-width: 55%;
+  position: relative;
 }
 
 .blurb {
