@@ -302,8 +302,8 @@ footer .content-wrapper {
   justify-content: flex-end;
 }
 
-/*.picture-gallery .container {
-  width:100%;
+.picture-gallery .container {
+  width: 100%;
   padding: 20px 0px;
 }
 
@@ -322,7 +322,7 @@ footer .content-wrapper {
 
 #avatar-5 {
   width: 90%;
-}*/
+}
 
 /************* MOBILE - ABOUT - STYLES*********/
 
