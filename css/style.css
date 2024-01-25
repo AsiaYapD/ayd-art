@@ -304,7 +304,7 @@ footer .content-wrapper {
 
 .picture-gallery .container {
   width: 100%;
-  padding: 20px 0px;
+  padding: 50px 0px;
 }
 
 #avatar-2 {
@@ -327,10 +327,11 @@ footer .content-wrapper {
 /************* MOBILE - ABOUT - STYLES*********/
 
 .profile p {
-  text-align: left;
+  text-align: center;
 }
 
 .me-photo {
+  margin:auto;
   display: flex;
   justify-content: flex-end;
   max-width: 55%;
